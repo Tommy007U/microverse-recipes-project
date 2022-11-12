@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+body{
+    background-color: #ecf2f8;
+    font-family:'barlow semi condensed', sans-serif;
+}
