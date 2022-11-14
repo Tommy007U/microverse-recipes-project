@@ -4,6 +4,78 @@
     box-sizing: border-box;   
 }
 body{
-    background-color: #ecf2f8;
+    background-color: rgba(192,192,192,0.3);
     font-family:'barlow semi condensed', sans-serif;
+    line-height: 1.5em;
+
+} 
+#logo{
+    display: flex;
+    justify-content: center;
 }
+h3, h2, h1, h4, h5, h6{
+    align-items: center;
+    color:navy;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:navy;
+}
+
+.navbar{
+    display:flex;
+    text-align: end;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+  }
+  .images{
+    display: flex;
+    align-items: center;
+  }
+
+span{
+    text-transform: capitalize;
+}
+#big-img{  
+    background: url("/images/background2.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+}
+.content{
+    background-color: rgba(192,192,192,0.6);
+    align-items: center;
+    color:black;
+    display: block;
+    padding: 15px;
+    margin: 25px;
+    align-items: center;
+
+}
+table, tr, td{
+    border: 1px solid black;
+  }
+  tr:hover {
+    background-color: coral;
+} 
+  
+table{
+    width:100%;
+    background-color: rgba(192,192,192,0.6);
+    border-spacing: 3px;
+    align-items: center;
+    color:black;
+    padding:left;
+  
+}
+
