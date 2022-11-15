@@ -66,16 +66,30 @@ span{
     background-position: center;
     color: white;
 }
+.africanfood p{
+    background: none;
+    color:black
+}
 .content{
-    background-color: rgba(192,192,192,0.6);
-    align-items: center;
+    background-color: rgba(19, 18, 18, 0.4);
     color:black;
     display: block;
     padding: 15px;
-    margin: 25px;
+    justify-content: center;
     align-items: center;
-
+    text-align: center;
+    margin: 25px;
 }
+.content p{
+    margin: left 140px;
+}
+.showoff{
+    background: rgba(192,192,192,0.6);
+    display: inline;
+    margin: 44px;
+    
+}
+
 table, tr, td{
     border: 1px solid black;
   }
